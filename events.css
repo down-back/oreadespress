@@ -1,0 +1,30 @@
+.event-text {
+  margin-top: 20rem;
+}
+
+.text-year {
+  font-size: 1.4rem;
+  font-family: "Roboto", sans-serif;
+  padding-bottom: 0.6rem;
+}
+
+.text-description {
+  line-height: 1.8;
+  padding-bottom: 2.7rem;
+}
+
+.text-description a {
+  color: black;
+}
+
+.text-description a:hover,
+.text-description a:active {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+@media only screen and (max-width: 768px) {
+  .event-text {
+    padding-top: 1.5rem;
+  }
+}
